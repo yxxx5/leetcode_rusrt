@@ -1,0 +1,1 @@
+{"rustc":7898204509609409292,"features":"[]","target":11410479927767160951,"profile":11870183705523825133,"path":6411929200147855193,"deps":[["serde_json v1.0.38 (registry `https://mirrors.ustc.edu.cn/crates.io-index/`)","serde_json",14200017127463074139]],"local":[{"Precalculated":"0.1.1"}],"rustflags":[],"edition":"Edition2018"}
