@@ -9,6 +9,7 @@
  * @param {Node} root
  * @return {number[]}
  */
+
 var preorder = function(root) {
     var res = [];
     if (root) {

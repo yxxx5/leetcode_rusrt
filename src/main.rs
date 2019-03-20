@@ -30,15 +30,14 @@ mod nim_game;
 mod number_of_recent_calls;
 use number_of_recent_calls::RecentCounter;
 
+mod univalued_binary_tree;
+
+mod fibonacci_number;
+
+mod reverse_string;
+
+mod keyboard_row;
 
 fn main() {
-    let mut r = RecentCounter::new();
-    r.ping(642);
-    r.ping(1849);
-    let n = r.ping(4921);
-    eprintln!("{}", n);
-    //r.ping(3003);
-    //eprintln!("{}", n);
-    //assert_eq!(3, 3);
 
 }
