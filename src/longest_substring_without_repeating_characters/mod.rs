@@ -39,7 +39,7 @@ impl Solution3 {
     }
 }
 #[cfg(test)]
-mod tests {
+mod test {
     #[test]
     fn exploration(){
         use super::*;

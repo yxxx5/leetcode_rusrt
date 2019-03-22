@@ -23,7 +23,7 @@ impl Solution700 {
 }
 
 #[cfg(test)]
-mod tests{
+mod test {
     #[test]
 
     fn exploration(){

@@ -13,9 +13,11 @@ impl Solution509 {
 
 #[cfg(test)]
 mod tests{
+    #[test]
     fn exploration(){
         use super::*;
         assert_eq!(Solution509::fib(2), 1);
-        assert_eq!(Solution509::fib(4), 4);
+        assert_eq!(Solution509::fib(3), 2);
+        assert_eq!(Solution509::fib(4), 3);
     }
 }

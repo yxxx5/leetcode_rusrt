@@ -21,7 +21,7 @@ impl Solution929 {
 
 
 #[cfg(test)]
-mod tests {
+mod test {
     #[test]
     fn exploration() {
         use super::*;

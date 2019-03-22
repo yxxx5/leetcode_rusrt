@@ -3,8 +3,8 @@ use leetcode_prelude::TreeNode;
 use std::rc::Rc;
 use std::cell::RefCell;
 
-pub struct Solution{}
-impl Solution {
+pub struct Solution617{}
+impl Solution617 {
     pub fn merge_trees(t1: Option<Rc<RefCell<TreeNode>>>, t2: Option<Rc<RefCell<TreeNode>>>) -> Option<Rc<RefCell<TreeNode>>> {
         let t : Option<Rc<RefCell<TreeNode>>> = makeRcTree(0);
 
@@ -64,6 +64,6 @@ mod tests {
         t2.as_ref().unwrap().borrow_mut().left = makeRcTree(1);
         t2.as_ref().unwrap().borrow_mut().right = makeRcTree(3);
 
-        let t3 = Solution::merge_trees(t1, t2);
+        let t3 = Solution617::merge_trees(t1, t2);
     }
 }

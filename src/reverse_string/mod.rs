@@ -14,8 +14,10 @@ impl Solution344 {
     }
 }
 #[cfg(test)]
-mod tests {
+mod test {
+    #[test]
     fn exploration(){
+
         use super::*;
 
         let mut v = vec!['h','e','l','l','o'];
