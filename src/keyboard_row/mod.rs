@@ -13,7 +13,7 @@ impl Solution500{
 
     }
 
-    fn matched(s: &String) -> bool{
+    fn matched(s: &String) -> bool {
         let vec = vec![
             vec!['q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p'],
             vec!['a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l'],

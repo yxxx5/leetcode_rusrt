@@ -3,7 +3,7 @@ use crate::merge_trees::{Solution, makeRcTree};
 
 mod next_permutation;
 use crate::next_permutation::*;
-
+//94
 mod binary_tree_inorder_traversal;
 use crate::binary_tree_inorder_traversal::*;
 
@@ -37,6 +37,12 @@ mod fibonacci_number;
 mod reverse_string;
 
 mod keyboard_row;
+//700
+mod search_in_a_binary_search_tree;
+//3
+mod longest_substring_without_repeating_characters;
+//15
+mod three_sum;
 
 fn main() {
 
