@@ -52,6 +52,18 @@ mod robot_return_to_origin;
 mod di_string_match;
 //69
 mod my_sqrt;
+//561
+mod array_partition_i;
+//557
+mod reverse_words_in_a_string_iii;
+//908
+mod smallest_range_i;
+//100
+mod same_tree;
+//821
+mod shortest_distance_to_a_character;
+//530
+mod minimum_absolute_difference_in_bst;
 
 fn main() {
 
