@@ -64,6 +64,10 @@ mod same_tree;
 mod shortest_distance_to_a_character;
 //530
 mod minimum_absolute_difference_in_bst;
+//868
+mod binary_gap;
+//1064
+mod fixed_point;
 
 fn main() {
 
